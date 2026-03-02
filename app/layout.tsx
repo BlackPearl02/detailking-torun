@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import { Outfit, Sora } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import ScrollToHash from '@/components/ScrollToHash'
 
@@ -46,6 +47,7 @@ export default function RootLayout({
         <div className="relative z-10">
           {children}
         </div>
+        <Analytics />
       </body>
     </html>
   )

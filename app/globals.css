@@ -22,16 +22,28 @@
 @layer components {
   .container-custom {
     @apply max-w-6xl mx-auto w-full;
-    padding-left: max(1rem, env(safe-area-inset-left));
-    padding-right: max(1rem, env(safe-area-inset-right));
+    padding-left: max(0.75rem, env(safe-area-inset-left));
+    padding-right: max(0.75rem, env(safe-area-inset-right));
   }
   @media (min-width: 640px) {
+    .container-custom {
+      padding-left: max(1.25rem, env(safe-area-inset-left));
+      padding-right: max(1.25rem, env(safe-area-inset-right));
+    }
+  }
+  @media (min-width: 768px) {
     .container-custom {
       padding-left: max(1.5rem, env(safe-area-inset-left));
       padding-right: max(1.5rem, env(safe-area-inset-right));
     }
   }
   @media (min-width: 1024px) {
+    .container-custom {
+      padding-left: max(2rem, env(safe-area-inset-left));
+      padding-right: max(2rem, env(safe-area-inset-right));
+    }
+  }
+  @media (min-width: 1280px) {
     .container-custom {
       padding-left: max(2rem, env(safe-area-inset-left));
       padding-right: max(2rem, env(safe-area-inset-right));

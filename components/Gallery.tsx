@@ -11,19 +11,19 @@ export default function Gallery() {
   return (
     <section id="realizacje" ref={sectionRef} className="section-padding bg-panel bg-texture-subtle">
       <div className="container-custom">
-        <div className="text-center mb-10 sm:mb-12 md:mb-14 lg:mb-18 animate-on-scroll">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-brand-light mb-3 sm:mb-4">
+        <div className="text-center mb-8 sm:mb-10 md:mb-12 lg:mb-14 animate-on-scroll">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-heading font-bold text-brand-light mb-2 sm:mb-3 md:mb-4">
             Nasze ostatnie realizacje
           </h2>
-          <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto px-1 sm:px-0">
+          <p className="text-sm sm:text-base md:text-lg text-gray-400 max-w-2xl mx-auto px-1 sm:px-0">
             Przykładowe prace ze studia: auto detailing, powłoki ceramiczne, PDR, oklejanie foliami.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
           {preview.map((item, index) => (
             <div
               key={`${item.title}-${index}`}
-              className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-card animate-on-scroll group min-h-[180px] sm:min-h-0"
+              className="relative aspect-[4/3] rounded-xl sm:rounded-2xl overflow-hidden shadow-card animate-on-scroll group min-h-[160px] sm:min-h-[180px] md:min-h-0"
               data-delay={Math.min(index, 5)}
             >
               <Image
