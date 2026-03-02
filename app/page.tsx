@@ -15,11 +15,20 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+
+        {/* Najpierw oferta – jak na oryginalnej stronie */}
         <Services />
-        <Pricing />
+
+        {/* Sekcja o nas + proces wcześniej, żeby podkreślić studio i zaufanie */}
         <About />
-        <Gallery />
         <Process />
+
+        {/* Realizacje przed cennikiem – jak na oryginale (zachęta wizualna przed rozmową o cenie) */}
+        <Gallery />
+
+        {/* Cennik jako orientacja – po pokazaniu wartości */}
+        <Pricing />
+
         <Testimonials />
         <Contact />
         <Footer />

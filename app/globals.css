@@ -6,11 +6,13 @@
   html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
   }
   body {
     @apply bg-surface text-gray-300 antialiased relative;
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
+    overflow-x: hidden;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading font-semibold tracking-tight text-brand-light;
@@ -63,14 +65,11 @@
     @apply shadow-soft-lg border-accent/30 -translate-y-1;
   }
   .bg-texture-romby {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28'%3E%3Cpath d='M14 0L28 14L14 28L0 14z' fill='rgba(255,255,255,0.008)'/%3E%3C/svg%3E");
-    background-size: 28px 28px;
-    background-position: 0 0;
-  }
-  @media (min-width: 1024px) {
-    .bg-texture-romby {
-      background-attachment: fixed;
-    }
+    background-image: radial-gradient(circle at 0 0, rgba(255,255,255,0.04) 0, transparent 55%),
+      radial-gradient(circle at 100% 100%, rgba(255,255,255,0.03) 0, transparent 55%);
+    background-repeat: no-repeat;
+    background-size: 480px 480px;
+    background-position: -120px -120px, calc(100% + 120px) calc(100% + 120px);
   }
 }
 

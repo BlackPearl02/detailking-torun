@@ -38,12 +38,12 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 overflow-x-hidden ${
         scrolled ? 'bg-surface/95 backdrop-blur-md shadow-soft border-b border-panel-border' : 'bg-transparent'
       }`}
       style={{ paddingTop: 'env(safe-area-inset-top)' }}
     >
-      <div className="container-custom">
+      <div className="container-custom overflow-x-hidden">
         <nav className="flex items-center justify-between h-14 sm:h-16 md:h-20">
           <Link
             href="/"
@@ -57,15 +57,6 @@ export default function Navbar() {
               {site.tagline}
             </span>
           </Link>
-
-          <div className="hidden md:flex items-center gap-4">
-            <a
-              href={`tel:${site.phone.replace(/\s/g, '')}`}
-              className="text-sm font-medium text-brand-light hover:text-accent transition-colors"
-            >
-              {site.phone}
-            </a>
-          </div>
 
           <button
             type="button"
@@ -84,7 +75,7 @@ export default function Navbar() {
           </button>
 
           <div
-            className={`absolute top-full left-0 right-0 md:static bg-surface border-t border-panel-border md:border-0 md:bg-transparent shadow-soft-lg md:shadow-none max-h-[calc(100vh-4rem)] overflow-y-auto ${
+            className={`absolute top-full left-0 right-0 md:static bg-surface border-t border-panel-border md:border-0 md:bg-transparent shadow-soft-lg md:shadow-none max-h-[calc(100vh-4rem)] overflow-y-auto overflow-x-hidden ${
               open ? 'block' : 'hidden md:flex md:items-center md:gap-6 lg:gap-8'
             }`}
             style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
