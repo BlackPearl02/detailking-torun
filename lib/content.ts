@@ -1,14 +1,15 @@
 export const site = {
   name: 'DetailKing Toruń',
-  tagline: 'Studio auto detailingu',
+  tagline: 'Detailing Toruń. Zapraszamy do naszego studia detailingu.',
   phone: '666 677 727',
+  phoneLabel: 'Darek',
   email: 'detailking.torun@wp.pl',
-  address: 'Kałamarskiego 8/10, 87-100 Toruń',
+  address: 'Pawła Kałamarskiego 8/10, 87-100 Toruń',
 }
 
 export const hero = {
-  headline: 'Zadbane auto to Twój wizerunek.',
-  subheadline: 'Profesjonalny auto detailing w Toruniu. Powłoki ceramiczne i kwarcowe, PDR, smart repair, przyciemnianie szyb i renowacja tapicerek. Zostaw auto w rękach fachowców z doświadczeniem.',
+  headline: 'Zadbane auto to Twój wizerunek',
+  subheadline: 'Profesjonalny auto detailing w Toruniu. Powłoki kwarcowe i ceramiczne, Smart Repair, PDR, oklejanie foliami. Pracujemy na produktach Gyeon, 4 nano, CarbonQ, Rupes.',
   ctaPrimary: 'Umów wycenę',
   ctaSecondary: 'Zadzwoń',
 }
@@ -16,15 +17,15 @@ export const hero = {
 export const services = [
   {
     title: 'Auto detailing',
-    description: 'Zapraszamy do studia. Dwa pakiety: STANDARD oraz PREMIUM. Twój pojazd odzyska nieskazitelny wygląd i zachowa go na długo.',
+    description: 'Dwa pakiety: Standard oraz Premium. Mycie, dekontaminacja, korekta lakieru, zabezpieczenie, wnętrze. Odświeżenie wyglądu i trwała ochrona.',
   },
   {
-    title: 'Smart repair',
-    description: 'Innowacyjna metoda szybkich i efektywnych napraw drobnych uszkodzeń powstałych w trakcie eksploatacji pojazdu.',
+    title: 'Smart Repair',
+    description: 'Innowacyjna metoda szybkich i efektywnych napraw. Usuwanie drobnych uszkodzeń powstałych w trakcie eksploatacji pojazdu.',
   },
   {
     title: 'Przyciemnianie szyb',
-    description: 'Ciemne szyby to ochrona mienia, ochrona przed UV i szkło bezpieczne. Wykorzystujemy najlepszej jakości folie.',
+    description: 'Ochrona mienia, przed UV, szkło bezpieczne. Wykorzystujemy najlepszej jakości folie.',
   },
   {
     title: 'Przygotowanie do sprzedaży',
@@ -32,90 +33,67 @@ export const services = [
   },
   {
     title: 'SSR – usuwanie rys i zadrapań',
-    description: 'Opatentowany odpowiednik lakieru. Trwałe rozwiązanie małych i średnich zadrapań, rys i odprysków – godna uwagi alternatywa dla lakierowania.',
+    description: 'Opatentowany odpowiednik lakieru. Trwałe rozwiązanie małych i średnich zadrapań, rys, odprysków – alternatywa dla tradycyjnego lakierowania.',
   },
   {
     title: 'Renowacja skórzanych tapicerek',
-    description: 'Kompleksowa naprawa zniszczonych tapicerek skórzanych.',
+    description: 'Kompleksowa naprawa zniszczonych tapicerek skórzanych i zabezpieczenie najlepszymi środkami.',
   },
   {
     title: 'Usuwanie wgnieceń – PDR',
-    description: 'Bezinwazyjne usuwanie wgnieceń po gradobiciu, aktach wandalizmu, uderzeniach, szkodach parkingowych i komunikacyjnych.',
+    description: 'Bezinwazyjna metoda PDR: gradobicie, wandalizm, uderzenia, szkody parkingowe i komunikacyjne.',
   },
   {
     title: 'Oklejanie foliami ochronnymi',
-    description: 'Kompleksowe zabezpieczenie pojazdów foliami. Ochrona przed kamieniami, zarysowaniami, otarciami. Montaż folii podnosi wartość i aspekt wizualny lakieru.',
+    description: 'Kompleksowe zabezpieczenie lakieru przed kamieniami, zarysowaniami, otarciami. Folia PPF – najlepsza ochrona na rynku.',
   },
   {
     title: 'Powłoki ceramiczne i kwarcowe',
-    description: 'Forma zabezpieczenia lakieru. Zalecane dla pojazdów nowych i używanych. Pracujemy na produktach Gyeon, 4 nano, CarbonQ, Rupes, Flexishield, 3M.',
+    description: 'Najtrwalsza forma zabezpieczenia lakieru. Zalecane dla aut nowych i używanych w bardzo dobrym stanie.',
   },
 ]
 
-export const pricingIntro = 'Ceny zależą od rodzaju pojazdu i zakresu usług. Zapraszamy do kontaktu – przygotujemy indywidualną wycenę.'
+export const pricingIntro = 'Cennik zależy od rodzaju pojazdu i zakresu. Poniżej pakiety Auto Detailing oraz orientacja dla pozostałych usług.'
 
 export const pricingItems = [
-  { name: 'Auto detailing – pakiet STANDARD', price: 'wycena indywidualna' },
-  { name: 'Auto detailing – pakiet PREMIUM', price: 'wycena indywidualna' },
-  { name: 'Powłoka ceramiczna / kwarcowa', price: 'wycena indywidualna' },
-  { name: 'Usuwanie wgnieceń PDR', price: 'wycena indywidualna' },
-  { name: 'SSR – usuwanie rys i zadrapań', price: 'wycena indywidualna' },
+  { name: 'Auto Detailing Standard', price: 'wycena indywidualna', note: 'ok. 2 dni robocze – mycie, dekontaminacja, korekta jednoetapowa, zabezpieczenie, wnętrze' },
+  { name: 'Auto Detailing Premium', price: 'wycena indywidualna', note: 'ok. 3–4 dni robocze – pełny pakiet z wieloetapową korektą i zabezpieczeniem' },
+  { name: 'Smart Repair', price: 'wycena indywidualna' },
   { name: 'Przyciemnianie szyb', price: 'wycena indywidualna' },
-  { name: 'Oklejanie folią ochronną', price: 'wycena indywidualna' },
   { name: 'Przygotowanie do sprzedaży', price: 'wycena indywidualna' },
+  { name: 'SSR (usuwanie rys i zadrapań)', price: 'wycena indywidualna' },
   { name: 'Renowacja tapicerek skórzanych', price: 'wycena indywidualna' },
+  { name: 'Usuwanie wgnieceń PDR', price: 'wycena indywidualna' },
+  { name: 'Oklejanie foliami ochronnymi PPF', price: 'wycena indywidualna' },
+  { name: 'Powłoki ceramiczne / kwarcowe', price: 'wycena indywidualna' },
 ]
 
 export const about = {
   title: 'Motoryzacja to nasza pasja',
-  body: 'DetailKing to marka na polskim rynku od 2008 roku. Jest częścią międzynarodowego projektu DetailKing Group, który zaspokaja rosnące wymagania sektora sprzątającego i motoryzacyjnego. Usługi wykonujemy z dbałością o każdy szczegół. Dokładamy starań, aby każdy klient zostawiający pojazd w naszym studio był pewien, że trafia w ręce fachowców z doświadczeniem. Dobieramy najlepszy pakiet do danego pojazdu i pracujemy na produktach topowych marek: Gyeon, 4 nano, CarbonQ, Rupes, Flexishield, 3M.',
+  body: 'DetailKing to marka na polskim rynku od 2008 roku, część międzynarodowego projektu DetailKing Group. Zaspokajamy rosnące wymagania sektora motoryzacyjnego. Usługi wykonujemy z dbałością o każdy szczegół – każdy klient zostawiający pojazd w naszym studio może być pewien, że trafia w ręce fachowców z doświadczeniem. Pracujemy na produktach i urządzeniach marek: Gyeon, 4 nano, CarbonQ, Rupes, Flexishield, 3M.',
 }
 
 export const processSteps = [
-  { step: 1, title: 'Kontakt', text: 'Zadzwoń lub napisz. Ustalamy termin i zakres usługi.' },
-  { step: 2, title: 'Umówienie', text: 'Potwierdzamy wizytę w studio przy Kałamarskiego 8/10.' },
-  { step: 3, title: 'Realizacja', text: 'Wykonujemy usługę z użyciem profesjonalnego sprzętu i preparatów.' },
-  { step: 4, title: 'Odbiór', text: 'Odbierasz auto w idealnym stanie.' },
+  { step: 1, title: 'Kontakt', text: 'Zadzwoń lub napisz. Ustalamy termin i zakres prac.' },
+  { step: 2, title: 'Wycena', text: 'Dobieramy najlepszy pakiet do pojazdu i oczekiwań klienta.' },
+  { step: 3, title: 'Realizacja', text: 'Wykonujemy usługę w naszym studio przy Pawła Kałamarskiego w Toruniu.' },
+  { step: 4, title: 'Odbiór', text: 'Odbierasz auto w nieskazitelnym stanie, z gwarancją jakości.' },
 ]
 
 export const testimonials = [
-  {
-    text: 'Jestem bardzo zadowolony! Był wgniot, nie ma po nim śladu! Bardzo dobra robota! POLECAM',
-    author: 'Marcin F.',
-  },
-  {
-    text: 'Najlepsze studio Detailingowe w Toruniu! Do tego zarządzane przez super ludzi. Polecam!',
-    author: 'Konrad L.',
-  },
-  {
-    text: 'Drugiego takiego serwisu nie znajdziecie. Moja A3 po myciu i konserwacji lakieru przed zimą prezentuje się przecudownie. Mega podejście do klienta, wszystko na najwyższym poziomie.',
-    author: 'Grażyna G.',
-  },
-  {
-    text: 'Pełen profesjonalizm, auto wyjeżdża jak z salonu, środki na najwyższym poziomie, doskonali fachowcy. Polecam',
-    author: 'Katarzyna R.',
-  },
-  {
-    text: 'Po dzisiejszej wizycie moja Toyota jak z salonu. Super robota. Polecam.',
-    author: 'Sławomir M.',
-  },
-  {
-    text: 'Auto oddane na pranie tapicerki. Usługa wykonana sprawnie i fachowo. Do tego super atmosfera. Polecam MAX chłopaków!',
-    author: 'Paweł K.',
-  },
-  {
-    text: 'Świetna robota przy nakładaniu powłoki. 100% profesjonalizmu!',
-    author: 'Patryk W.',
-  },
-  {
-    text: 'Miałem polerowane lampy przednie w Toyocie Yaris. Rewelacja. Po zabiegu jak nowe. Profesjonalne wykonanie. W warsztacie sterylna czystość. Obsługa przesympatyczna. Gorąco polecam!!!',
-    author: 'Piotr R.',
-  },
+  { text: 'Jestem bardzo zadowolony! Był wgniot, nie ma po nim śladu! Bardzo dobra robota! POLECAM', author: 'Marcin F.' },
+  { text: 'Najlepsze studio Detailingowe w Toruniu! Do tego zarządzane przez super ludzi. Polecam!', author: 'Konrad L.' },
+  { text: 'Drugiego takiego serwisu nie znajdziecie. Moja A3 po myciu i konserwacji lakieru prezentuje się przecudownie. Mega podejście do klienta, wszystko na najwyższym poziomie.', author: 'Grażyna G.' },
+  { text: 'Pełen profesjonalizm, auto wyjeżdża jak z salonu, środki na najwyższym poziomie, doskonali fachowcy. Polecam', author: 'Katarzyna R.' },
+  { text: 'Po dzisiejszej wizycie moja Toyota jak z salonu. Super robota. Polecam.', author: 'Sławomir M.' },
+  { text: 'Auto oddane na pranie tapicerki. Usługa wykonana sprawnie i fachowo. Do tego super atmosfera. Polecam!', author: 'Paweł K.' },
+  { text: 'Świetna robota przy nakładaniu powłoki. 100% profesjonalizmu!', author: 'Patryk W.' },
+  { text: 'Polerowane lampy w Toyocie Yaris – rewelacja, jak nowe. W warsztacie sterylna czystość. Obsługa przesympatyczna. Gorąco polecam!', author: 'Piotr R.' },
 ]
 
 export const contact = {
   title: 'Kontakt',
-  subtitle: 'Odwiedź nas w studio lub napisz. Odpowiadamy w ciągu 24 godzin.',
+  subtitle: 'Zapraszamy do studia przy Pawła Kałamarskiego 8/10 w Toruniu. Zadzwoń lub napisz.',
   formName: 'Imię i nazwisko',
   formPhone: 'Telefon',
   formEmail: 'Email',

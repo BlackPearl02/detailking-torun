@@ -9,29 +9,28 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          DEFAULT: '#d4af37',
-          light: '#e5c65c',
-          dark: '#b8962e',
+          DEFAULT: '#e2e8f0',
+          light: '#f1f5f9',
+          dark: '#cbd5e1',
         },
         accent: {
-          DEFAULT: '#d4af37',
-          light: '#e5c65c',
-          dark: '#b8962e',
+          DEFAULT: '#22d3ee',
+          light: '#67e8f9',
+          dark: '#06b6d4',
         },
         surface: {
-          DEFAULT: '#0c0c0c',
-          dark: '#080808',
+          DEFAULT: '#0f172a',
+          dark: '#020617',
         },
         panel: {
-          DEFAULT: '#141414',
-          light: '#1a1a1a',
-          border: '#2a2a2a',
+          DEFAULT: '#1e293b',
+          light: '#334155',
+          border: '#475569',
         },
       },
       fontFamily: {
-        sans: ['var(--font-geist-sans)', 'system-ui', 'sans-serif'],
-        heading: ['var(--font-geist-sans)', 'system-ui', 'sans-serif'],
-        logo: ['var(--font-logo)', 'cursive'],
+        sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
+        heading: ['var(--font-heading)', 'system-ui', 'sans-serif'],
       },
       spacing: {
         '18': '4.5rem',
@@ -46,7 +45,7 @@ const config: Config = {
         'soft': '0 4px 24px rgba(0,0,0,0.35)',
         'soft-lg': '0 8px 40px rgba(0,0,0,0.45)',
         'card': '0 2px 12px rgba(0,0,0,0.2)',
-        'glow': '0 0 32px rgba(212,175,55,0.15)',
+        'glow': '0 0 32px rgba(34,211,238,0.15)',
       },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-out forwards',

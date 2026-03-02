@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter } from 'next/font/google'
+import { Outfit, Sora } from 'next/font/google'
 import './globals.css'
 import ScrollToHash from '@/components/ScrollToHash'
 
@@ -10,19 +10,25 @@ export const viewport: Viewport = {
   viewportFit: 'cover',
 }
 
-const inter = Inter({
+const outfit = Outfit({
   subsets: ['latin', 'latin-ext'],
-  variable: '--font-geist-sans',
+  variable: '--font-sans',
+  display: 'swap',
+})
+
+const sora = Sora({
+  subsets: ['latin', 'latin-ext'],
+  variable: '--font-heading',
   display: 'swap',
 })
 
 export const metadata: Metadata = {
-  title: 'DetailKing Toruń | Auto detailing – powłoki ceramiczne, PDR, smart repair',
-  description: 'Studio auto detailingu w Toruniu. Auto detailing, powłoki kwarcowe i ceramiczne, usuwanie wgnieceń PDR, smart repair, przyciemnianie szyb, renowacja tapicerek. Kałamarskiego 8/10.',
-  keywords: 'auto detailing Toruń, detailing Toruń, powłoka ceramiczna, PDR, smart repair, DetailKing',
+  title: 'DetailKing Toruń | Profesjonalny auto detailing',
+  description: 'Detailing Toruń. Studio auto detailingu – powłoki kwarcowe i ceramiczne, Smart Repair, PDR, oklejanie foliami. Gyeon, Rupes, CarbonQ. Pawła Kałamarskiego 8/10.',
+  keywords: 'detailing Toruń, auto detailing, powłoka ceramiczna, Smart Repair, PDR, DetailKing',
   openGraph: {
-    title: 'DetailKing Toruń | Auto detailing',
-    description: 'Profesjonalny auto detailing w Toruniu. Powłoki ceramiczne, PDR, smart repair.',
+    title: 'DetailKing Toruń | Profesjonalny auto detailing',
+    description: 'Zadbane auto to Twój wizerunek. Zapraszamy do studia detailingu w Toruniu.',
     type: 'website',
   },
   robots: 'index, follow',
@@ -34,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pl" className={`${inter.variable} dark`}>
+    <html lang="pl" className={`${outfit.variable} ${sora.variable} dark`}>
       <body className="font-sans antialiased bg-surface text-gray-300">
         <ScrollToHash />
         <div className="relative z-10">

@@ -1,7 +1,7 @@
 {
   "name": "detailking-torun",
   "version": "1.0.0",
-  "description": "DetailKing Toruń - Auto detailing. Strona demo.",
+  "description": "DetailKing Toruń - Profesjonalny auto detailing. Strona demo.",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -22,6 +22,7 @@
     "eslint": "^8.42.0",
     "eslint-config-next": "^14.0.0",
     "postcss": "^8.4.31",
+    "sharp": "^0.33.5",
     "tailwindcss": "^3.3.5",
     "typescript": "^5.1.3"
   }
