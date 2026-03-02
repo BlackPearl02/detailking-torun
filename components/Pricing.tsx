@@ -61,7 +61,7 @@ export default function Pricing() {
                 <table className="w-full min-w-[560px]">
                   <thead>
                     <tr className="border-b border-panel-border bg-panel-light/50">
-                      <th className="text-left py-3 px-3 sm:px-4 text-sm font-semibold text-brand-light sticky left-0 z-10 bg-panel-light/50 shadow-[2px_0_6px_-2px_rgba(0,0,0,0.2)]">Usługa</th>
+                      <th className="text-left py-3 px-3 sm:px-4 text-sm font-semibold text-brand-light sticky left-0 bg-panel-light">Usługa</th>
                       <th className="text-right py-3 px-3 sm:px-4 text-xs sm:text-sm font-semibold text-brand-light whitespace-nowrap bg-panel-light/50">Osobowe małe / średnie</th>
                       <th className="text-right py-3 px-3 sm:px-4 text-xs sm:text-sm font-semibold text-brand-light whitespace-nowrap bg-panel-light/50">Duże SUV / VAN</th>
                       <th className="text-right py-3 px-3 sm:px-4 text-xs sm:text-sm font-semibold text-brand-light whitespace-nowrap bg-panel-light/50">BUS</th>
@@ -70,7 +70,7 @@ export default function Pricing() {
                   <tbody>
                     {section.items.map((row, rowIndex) => (
                       <tr key={rowIndex} className="border-b border-panel-border/80 last:border-0 hover:bg-panel-light/20 transition-colors">
-                        <td className="py-3 px-3 sm:px-4 sticky left-0 z-10 bg-panel shadow-[2px_0_6px_-2px_rgba(0,0,0,0.2)]">
+                        <td className="py-3 px-3 sm:px-4 sticky left-0 bg-panel">
                           <span className="text-brand-light text-sm sm:text-base block">{row.name}</span>
                           {row.note && (
                             <span className="text-gray-500 text-xs mt-0.5 block">{row.note}</span>
