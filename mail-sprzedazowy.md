@@ -39,6 +39,9 @@ Zajrzyj i napisz, co myślisz. Odpowiem na każde pytanie.
 
 ## Wariant 3 (bardziej subtelny, delikatniejszy)
 
+**Tytuł:** REAZLIZACJE, rozmycie i watermark – zrobiłem wariant bez tego  
+*(alternatywy: „Wasza strona robi pierwsze wrażenie. Zobacz, jak mogłoby być.” | „Zrobiłem DetailKing jeszcze raz – w jeden dzień. Zobacz różnicę.”)*
+
 Witaj,
 
 Zajmuję się stronami dla studiów detailingu i czasem robię krótkie demo na podstawie istniejącej strony – po to, żeby pokazać wariant „bez problemów”. U DetailKing widziałem m.in. rozmyte tło na stronie głównej, duży napis w tle w sekcji oferty (przez który trudniej czytać opisy) oraz literówkę w jednym z nagłówków. To drobiazgi, ale razem dają wrażenie niedopracowania – a klienci często oceniają wizualnie, zanim w ogóle przeczytają ofertę.
