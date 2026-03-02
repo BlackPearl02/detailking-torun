@@ -8,7 +8,7 @@ import { site } from '@/lib/content'
 
 const navLinks = [
   { href: '/', sectionId: 'uslugi', label: 'Oferta' },
-  { href: '/', sectionId: 'cennik', label: 'Cennik' },
+  { href: '/cennik', sectionId: null, label: 'Cennik' },
   { href: '/', sectionId: 'realizacje', label: 'Realizacje' },
   { href: '/', sectionId: 'proces', label: 'Proces' },
   { href: '/', sectionId: 'kontakt', label: 'Kontakt' },

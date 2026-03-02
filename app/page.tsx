@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import Services from '@/components/Services'
-import Pricing from '@/components/Pricing'
+import CennikTeaser from '@/components/CennikTeaser'
 import About from '@/components/About'
 import Gallery from '@/components/Gallery'
 import Process from '@/components/Process'
@@ -16,7 +16,7 @@ export default function Home() {
       <main>
         <Hero />
         <Services />
-        <Pricing />
+        <CennikTeaser />
         <About />
         <Gallery />
         <Process />

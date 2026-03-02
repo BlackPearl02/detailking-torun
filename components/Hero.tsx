@@ -9,15 +9,15 @@ export default function Hero() {
     <section className="relative min-h-[85svh] sm:min-h-[88vh] md:min-h-[90vh] flex items-center overflow-hidden pt-20 sm:pt-24 md:pt-28">
       <div className="absolute inset-0 bg-surface-dark" aria-hidden />
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
         style={{
           backgroundImage: "url('https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=1920&q=80')",
         }}
         aria-hidden
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-surface via-surface/95 to-surface/80" aria-hidden />
-      <div className="relative z-10 container-custom grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-        <div className="px-2 sm:px-4 lg:px-0">
+      <div className="absolute inset-0 bg-gradient-to-r from-surface via-surface/90 to-surface/60" aria-hidden />
+      <div className="relative z-10 container-custom grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center">
+        <div className="px-2 sm:px-4 lg:px-0 order-2 lg:order-1">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-brand-light mb-4 sm:mb-6 animate-fade-in-up max-w-xl leading-tight">
             {hero.headline}
           </h1>
@@ -33,13 +33,13 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[400px] rounded-2xl overflow-hidden shadow-soft-lg animate-fade-in-up hidden lg:block" style={{ animationDelay: '0.15s', animationFillMode: 'both' }}>
+        <div className="relative aspect-[16/10] sm:aspect-[4/3] lg:aspect-auto lg:min-h-[380px] rounded-2xl overflow-hidden shadow-soft-lg ring-1 ring-accent/30 animate-fade-in-up order-1 lg:order-2" style={{ animationDelay: '0.15s', animationFillMode: 'both' }}>
           <Image
             src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&q=80"
             alt="Auto detailing – studio DetailKing Toruń"
             fill
             className="object-cover"
-            sizes="(max-width: 1024px) 0px, 50vw"
+            sizes="(max-width: 1024px) 100vw, 50vw"
             priority
           />
         </div>
