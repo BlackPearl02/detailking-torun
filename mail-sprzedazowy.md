@@ -1,6 +1,6 @@
 # Mail sprzedażowy – DetailKing Toruń
 
-Spersonalizowane warianty na podstawie audytu strony detailingtorun.com.pl i demo. Ton: naturalny, bez emoji i korpo, krótko.
+Spersonalizowane warianty na podstawie audytu strony detailingtorun.com.pl i demo. Strona obecna ma poważne problemy (rozmyty hero, watermark zasłaniający ofertę, literówka w nagłówku, przestarzały wygląd). Ton: naturalny, konkretny, bez emoji i korpo – wskazujemy realne problemy i pokazujemy demo jako alternatywę.
 
 ---
 
@@ -8,13 +8,13 @@ Spersonalizowane warianty na podstawie audytu strony detailingtorun.com.pl i dem
 
 Cześć,
 
-Nazywam się [Imię] i zajmuję się stronami internetowymi dla firm z branży detailingu. Przejrzałem Waszą stronę i na jej podstawie zrobiłem krótką wersję demo – tak jak mógłby wyglądać nowy wariant z tą samą ofertą i cennikiem, ale w jednym miejscu i z numerem od razu na górze.
+Nazywam się [Imię] i robię strony dla firm z branży detailingu. Przejrzałem Waszą stronę i na jej podstawie zrobiłem w jeden dzień krótką wersję demo – żeby pokazać, jak ta sama oferta może wyglądać bez problemów, które teraz od razu rzucają się w oczy.
 
-Na detailingtorun.com.pl macie dużo dobrej treści, ale cennik jest dopiero w osobnej zakładce, a pełne realizacje i opinie też wymagają kilku kliknięć. Na mobile klient często nie ma cierpliwości – szuka numeru albo widełek cenowych i jeśli ich nie widzi, zamyka stronę. W demo cennik jest już na stronie głównej (zajawka), a kontakt i „Zadzwoń” są w nagłówku, także na telefonie. Dodatkowo dodałem sekcję „Jak pracujemy” w czterech krokach – wielu klientów szuka właśnie takiej jasnej ścieżki.
+Konkretnie: na stronie głównej rozmyte tło i mało czytelny układ słabo działają na pierwsze wrażenie. W sekcji oferty duży napis w tle (watermark) zasłania opisy usług – klient musi się przebijać przez treść. W nagłówku realizacji wkradła się literówka (REAZLIZACJE). To są rzeczy, które wielu klientów ocenia podświadomie: wygląd = profesjonalizm. W demo nie ma rozmyć, tekst jest czytelny, numer i cennik są na wierzchu, a całość wygląda po prostu na dopracowaną.
 
 Demo: [link do demo]
 
-Wejdź proszę w link i daj znać, czy taki układ ma dla Was sens. Chętnie odpowiem na pytania i ewentualnie doprecyzujemy szczegóły.
+Wejdź w link i daj znać, czy taki kierunek ma dla Was sens. Chętnie odpowiem na pytania i doprecyzujemy ewentualne poprawki.
 
 Pozdrawiam,  
 [Imię]
@@ -25,11 +25,13 @@ Pozdrawiam,
 
 Hej,
 
-Przygotowałem dla DetailKing Toruń wersję demo strony – na podstawie Waszej obecnej. Główna różnica: jedna strona główna z cennikiem i numerem na wierzchu, bez konieczności wchodzenia w kilka zakładek. Na telefonie to często decyduje, czy ktoś zadzwoni, czy zamknie stronę.
+Przygotowałem dla DetailKing demo nowej wersji strony. Obecna ma kilka mocno widocznych problemów: rozmyty hero, watermark w tle sekcji oferty (utrudnia czytanie), literówka w „REALIZACJE” i ogólnie przestarzały wygląd. Przy pierwszym wejściu na stronę to od razu widać – a pierwsze wrażenie często decyduje, czy ktoś zostanie, czy zamknie zakładkę.
+
+W demo jest ta sama oferta i cennik, ale bez tych problemów: czytelnie, z numerem na górze, bez rozmyć i bez literówek.
 
 Link do demo: [link do demo]
 
-Zajrzyj i napisz, co myślisz – czy taki układ Wam pasuje. Odpowiem na każde pytanie.
+Zajrzyj i napisz, co myślisz. Odpowiem na każde pytanie.
 
 [Imię]
 
@@ -39,9 +41,9 @@ Zajrzyj i napisz, co myślisz – czy taki układ Wam pasuje. Odpowiem na każde
 
 Witaj,
 
-Zajmuję się stronami dla firm typu studio detailingu i czasem robię krótkie demo na podstawie istniejącej strony – żeby pokazać, jak można uporządkować treść bez zmiany oferty. Tak zrobiłem też dla DetailKing: ta sama oferta, ten sam cennik i realizacje, ale w jednym miejscu – z numerem i krótką zajawką cen na stronie głównej oraz sekcją „Kontakt – Wycena – Realizacja – Odbiór”. Wielu klientów szuka właśnie takiej przejrzystości.
+Zajmuję się stronami dla studiów detailingu i czasem robię krótkie demo na podstawie istniejącej strony – po to, żeby pokazać wariant „bez problemów”. U DetailKing widziałem m.in. rozmyte tło na stronie głównej, duży napis w tle w sekcji oferty (przez który trudniej czytać opisy) oraz literówkę w jednym z nagłówków. To drobiazgi, ale razem dają wrażenie niedopracowania – a klienci często oceniają wizualnie, zanim w ogóle przeczytają ofertę.
 
-Nie chcę namawiać na zmianę strony – chcę tylko pokazać wariant i usłyszeć Waszą opinię. Jeśli to ma sens, możemy spokojnie porozmawiać; jeśli nie – też ok.
+Zrobiłem demo: ta sama oferta, cennik i realizacje, ale w czystej, czytelnej formie, z numerem i CTA na wierzchu. Nie namawiam na zmianę – chcę tylko pokazać wariant i usłyszeć Waszą opinię.
 
 Demo: [link do demo]
 
@@ -55,4 +57,4 @@ Pozdrawiam,
 **Uwagi:**  
 - W miejsce [link do demo] wstaw faktyczny URL demo (np. Vercel / preview).  
 - [Imię] – podmień na swoje imię.  
-- Można dodać 1 zdanie o tym, że demo powstało w 1 dzień (np. w wariancie 1: „…zrobiłem krótką wersję demo w jeden dzień – tak jak…”).
+- Maile odwołują się do realnych problemów ze strony (rozmycie, watermark, literówka REAZLIZACJE), bez agresywnej krytyki.
